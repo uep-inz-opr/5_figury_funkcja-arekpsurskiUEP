@@ -12,7 +12,7 @@ for index in range(0,i):
 
 for index in range(0,i+1):
   if len(tablica[index]) == 1:
-    wynik = math.pi*(sum(tablica[index]))**2
+    wynik = math.pi*(tablica[index][0])**2
     result.append(wynik)
     #result_wynik=math.pi*tablica[index]**2
     #result.append(result_wynik)
