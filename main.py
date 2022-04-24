@@ -7,7 +7,7 @@ result = []
 for index in range(0,i):
   element=input().replace('\r', '').replace('\n', '').split(" ")
   for i in range (0,len(element)):
-    element[i] = int(element[i])
+    element[i] = float(element[i])
   tablica.append(element)
 
 for index in range(0,i+1):
